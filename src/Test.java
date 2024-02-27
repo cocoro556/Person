@@ -3,6 +3,7 @@ public class Test {
 
 	public static void main(String[] args) {
 
+		//Personインスタンス化
 		//山田太郎--------------------
 		Person taro = new Person();
 		taro.name = "山田太郎";
@@ -54,6 +55,24 @@ public class Test {
 		System.out.println(yuto.phoneNumbeer);
 		System.out.println(yuto.address);
 
+		//Robotインスタンス化
+		Robot aibo = new Robot();
+		aibo.name = "アイボ";
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+
+		Robot asimo = new Robot();
+		asimo.name = "アシモ";
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+
+		Robot pepper = new Robot();
+		pepper.name = "ペッパー";
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
 	}
 
 }
